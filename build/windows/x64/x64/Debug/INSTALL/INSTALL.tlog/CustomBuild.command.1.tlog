@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\DESKTOP\PROJECT_FLUTTER_1\MY_CV_ESP\BUILD\WINDOWS\X64\CMAKEFILES\AF610B2DA752BB66BA2A110E215E9EEE\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
