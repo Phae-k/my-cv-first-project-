@@ -24,9 +24,9 @@ events:
       The output was:
       0
       MSBuild version 17.14.23+b0019275e for .NET Framework
-      Build started 12/20/2025 6:58:02 PM.
+      Build started 1/8/2026 8:04:29 PM.
       
-      Project "C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\my_cv_esp\\build\\windows\\x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\project_01\\build\\windows\\x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -39,7 +39,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\my_cv_esp\\build\\windows\\x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\project_01\\build\\windows\\x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -47,13 +47,13 @@ events:
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\my_cv_esp\\build\\windows\\x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\project_01\\build\\windows\\x64\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:33.08
+      Time Elapsed 00:00:04.91
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -61,7 +61,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-esc7kw"
-      binary: "C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-esc7kw"
+      source: "C:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-8iu506"
+      binary: "C:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-8iu506"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -83,40 +83,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-esc7kw'
+        Change Dir: 'C:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-8iu506'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_52935.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ce4ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 12/20/2025 6:58:41 PM.
+        Build started 1/8/2026 8:04:35 PM.
         
-        Project "C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\my_cv_esp\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-esc7kw\\cmTC_52935.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\project_01\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-8iu506\\cmTC_ce4ee.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_52935.dir\\Debug\\".
+          Creating directory "cmTC_ce4ee.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\my_cv_esp\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-esc7kw\\Debug\\".
-          Creating directory "cmTC_52935.dir\\Debug\\cmTC_52935.tlog\\".
+          Creating directory "C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\project_01\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-8iu506\\Debug\\".
+          Creating directory "cmTC_ce4ee.dir\\Debug\\cmTC_ce4ee.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_52935.dir\\Debug\\cmTC_52935.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_52935.dir\\Debug\\cmTC_52935.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ce4ee.dir\\Debug\\cmTC_ce4ee.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ce4ee.dir\\Debug\\cmTC_ce4ee.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_52935.dir\\Debug\\\\" /Fd"cmTC_52935.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ce4ee.dir\\Debug\\\\" /Fd"cmTC_ce4ee.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35219 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_52935.dir\\Debug\\\\" /Fd"cmTC_52935.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ce4ee.dir\\Debug\\\\" /Fd"cmTC_ce4ee.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\my_cv_esp\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-esc7kw\\Debug\\cmTC_52935.exe" /INCREMENTAL /ILK:"cmTC_52935.dir\\Debug\\cmTC_52935.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-esc7kw/Debug/cmTC_52935.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-esc7kw/Debug/cmTC_52935.lib" /MACHINE:X64  /machine:x64 cmTC_52935.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_52935.vcxproj -> C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\my_cv_esp\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-esc7kw\\Debug\\cmTC_52935.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\project_01\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-8iu506\\Debug\\cmTC_ce4ee.exe" /INCREMENTAL /ILK:"cmTC_ce4ee.dir\\Debug\\cmTC_ce4ee.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-8iu506/Debug/cmTC_ce4ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-8iu506/Debug/cmTC_ce4ee.lib" /MACHINE:X64  /machine:x64 cmTC_ce4ee.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ce4ee.vcxproj -> C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\project_01\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-8iu506\\Debug\\cmTC_ce4ee.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_52935.dir\\Debug\\cmTC_52935.tlog\\unsuccessfulbuild".
-          Touching "cmTC_52935.dir\\Debug\\cmTC_52935.tlog\\cmTC_52935.lastbuildstate".
-        Done Building Project "C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\my_cv_esp\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-esc7kw\\cmTC_52935.vcxproj" (default targets).
+          Deleting file "cmTC_ce4ee.dir\\Debug\\cmTC_ce4ee.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ce4ee.dir\\Debug\\cmTC_ce4ee.tlog\\cmTC_ce4ee.lastbuildstate".
+        Done Building Project "C:\\Users\\ASUS\\Desktop\\Project_flutter_1\\project_01\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-8iu506\\cmTC_ce4ee.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:24.81
+        Time Elapsed 00:00:01.45
         
       exitCode: 0
   -

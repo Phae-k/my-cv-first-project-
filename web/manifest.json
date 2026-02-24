@@ -1,6 +1,6 @@
 {
-    "name": "my_cv_esp",
-    "short_name": "my_cv_esp",
+    "name": "project_01",
+    "short_name": "project_01",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

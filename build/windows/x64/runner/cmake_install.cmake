@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/windows/runner
+# Install script for directory: C:/Users/ASUS/Desktop/Project_flutter_1/project_01/windows/runner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "$<TARGET_FILE_DIR:my_cv_esp>")
+  set(CMAKE_INSTALL_PREFIX "$<TARGET_FILE_DIR:project_01>")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -35,6 +35,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64/runner/install_local_manifest.txt"
+  file(WRITE "C:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64/runner/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+    <ClCompile Include="C:\Users\ASUS\Desktop\Project_flutter_1\project_01\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+    <ClCompile Include="C:\Users\ASUS\Desktop\Project_flutter_1\project_01\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
+    <ClCompile Include="C:\Users\ASUS\Desktop\Project_flutter_1\project_01\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
+    <ClCompile Include="C:\Users\ASUS\Desktop\Project_flutter_1\project_01\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\windows\flutter\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\ASUS\Desktop\Project_flutter_1\project_01\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{4F0F4CBF-7470-3AE8-91A0-3F9BAE65F8F3}</UniqueIdentifier>
+      <UniqueIdentifier>{A9C8F6E1-82DC-3EF4-A4E4-F95197FD3189}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5AB011ED-6B19-3B53-B308-9AB49A05CC58}</UniqueIdentifier>
+      <UniqueIdentifier>{6898D9B5-7AB2-3828-999B-C3B8DD3E8CDA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -21,7 +21,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F9D4AAF8-D3E9-35CD-BF8F-3E93EC4AFF2A}</ProjectGuid>
+    <ProjectGuid>{5FE65E56-BACC-3BB2-8499-59989D32A1D8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -88,11 +88,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\windows\runner\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\ASUS\Desktop\Project_flutter_1\project_01\windows\runner\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS/Desktop/Project_flutter_1/project_01/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/windows -BC:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/Project_flutter_1/project_01/windows -BC:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -101,11 +101,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS\Desktop\Project_flutter_1\project_01\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/ASUS/Desktop/Project_flutter_1/project_01/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/windows -BC:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/Project_flutter_1/project_01/windows -BC:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -114,11 +114,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\ASUS\Desktop\Project_flutter_1\project_01\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/windows/runner/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS/Desktop/Project_flutter_1/project_01/windows/runner/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/windows -BC:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/Project_flutter_1/my_cv_esp/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/Project_flutter_1/project_01/windows -BC:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64 --check-stamp-file C:/Users/ASUS/Desktop/Project_flutter_1/project_01/build/windows/x64/runner/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -127,7 +127,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS\Desktop\Project_flutter_1\project_01\build\windows\x64\runner\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -135,15 +135,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{713775E8-2F53-3312-9C49-44121741D738}</Project>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\Project_flutter_1\project_01\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{654E0A2A-647C-350E-BD74-094955C0BB20}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\ASUS\Desktop\Project_flutter_1\my_cv_esp\build\windows\x64\runner\my_cv_esp.vcxproj">
-      <Project>{11BC7364-EB11-3B49-BDF7-A27758A891FD}</Project>
-      <Name>my_cv_esp</Name>
+    <ProjectReference Include="C:\Users\ASUS\Desktop\Project_flutter_1\project_01\build\windows\x64\runner\project_01.vcxproj">
+      <Project>{9C305C15-174B-3DE4-A8C5-166E217F3A28}</Project>
+      <Name>project_01</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

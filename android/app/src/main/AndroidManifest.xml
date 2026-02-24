@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="my_cv_esp"
+        android:label="project_01"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
